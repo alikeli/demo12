@@ -41,7 +41,6 @@ public class PersonServiceImpl implements PersonService {
                 + professions.get(person.getProfessionNumber());
         return personDescription;
     }
-
     @Override
     public void addPerson(Person person) {
         persons.add(person);
